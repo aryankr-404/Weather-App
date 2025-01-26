@@ -1,9 +1,9 @@
 import React from 'react'
 
 const WeatherImg = ({temp}) => {
-    let imgUrl = "/src/assets/weatherImg/rain.avif";
-    if(temp <= 20){imgUrl = "/src/assets/weatherImg/cold.avif";}
-    else if(temp > 20){imgUrl = "/src/assets/weatherImg/sunny.avif";}
+    let imgUrl = "/assets/weatherImg/rain.avif";
+    if(temp <= 20){imgUrl = "/assets/weatherImg/cold.avif";}
+    else if(temp > 20){imgUrl = "/assets/weatherImg/sunny.avif";}
 
   return (
     <div className='w-full flex justify-center'>

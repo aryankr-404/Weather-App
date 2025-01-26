@@ -20,11 +20,11 @@ const SunriseSet = ({rise, set}) => {
     <div className='bg-white rounded-2xl w-[80%] aspect-square p-5 shadow-lg'>
         <h4 className=' text-gray-400 font-semibold font-mono mb-2'>Sunrise/Sunset</h4>
         <div className='flex  items-center '>
-            <img className='w-[30%]' src="/src/assets/weatherIcons/sunrise.png" alt="" />
+            <img className='w-[30%]' src="/assets/weatherIcons/sunrise.png" alt="" />
             <h2 className='2xl:text-xl ml-2'>{riseTime}</h2>
         </div>
         <div className='flex  items-center '>
-            <img className='w-[30%]' src="/src/assets/weatherIcons/sunset.png" alt="" />
+            <img className='w-[30%]' src="/assets/weatherIcons/sunset.png" alt="" />
             <h2 className='2xl:text-xl ml-2'>{setTime}</h2>
         </div>
     </div>

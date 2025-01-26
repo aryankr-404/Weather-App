@@ -55,7 +55,7 @@ const SidePanel = ({updateWeatherInfo}) => {
   return (
     <div className='md:fixed md:top-0 md:left-0 md:w-1/3 w-full bg-[#fffffd] h-screen flex flex-col justify-center items-center'>
         <div className='relative h-1/3 items-center flex justify-center'>
-            <img className='h-full ' src="/src/assets/weatherHome.webp" alt="" />
+            <img className='h-full ' src="/assets/weatherHome.webp" alt="" />
         </div>
         <div className='relative h-1/3 flex flex-col 2xl:gap-5 gap-3 w-[90%] rounded-2xl 2xl:px-6 2xl:py-5 py-2'>
             <h2 className='text-4xl text-center font-bold font-serif'>Search for Places</h2>
@@ -80,7 +80,7 @@ const SidePanel = ({updateWeatherInfo}) => {
         </div>
 
         <div className='relative h-1/3  w-full flex justify-center items-center'>
-            <img className='h-[80%] rounded-2xl' src="/src/assets/animatedCar.gif" alt="" />
+            <img className='h-[80%] rounded-2xl' src="/assets/animatedCar.gif" alt="" />
         </div>
     </div>
   )

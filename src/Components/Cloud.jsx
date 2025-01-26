@@ -1,18 +1,18 @@
 import React from 'react'
 
 const Cloud = ({cloud}) => {
-  let imageSrc = "/src/assets/weatherIcons/partialCloudy.jfif";
+  let imageSrc = "/assets/weatherIcons/partialCloudy.jfif";
   let keyword = '---';
  
   if (cloud <= 10) {
     keyword = "Clear";
-    imageSrc = "/src/assets/weatherIcons/sun.png";
+    imageSrc = "/assets/weatherIcons/sun.png";
   } else if (cloud > 10 && cloud < 50) {
     keyword ='Partly cloudy';
-    imageSrc = "/src/assets/weatherIcons/partialCloudy.jfif";
+    imageSrc = "/assets/weatherIcons/partialCloudy.jfif";
   } else if (cloud >= 50) {
     keyword = 'Cloudy';
-    imageSrc = "/src/assets/weatherIcons/cloud.png";
+    imageSrc = "/assets/weatherIcons/cloud.png";
   }
 
   return (
