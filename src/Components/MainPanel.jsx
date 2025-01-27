@@ -14,7 +14,7 @@ const MainPanel = (props) => {
 
   return (
     <div className='md:absolute md:top-0 md:right-0 md:w-2/3 bg-[#f6f6f8] min-h-screen overflow-y-scroll p-5 px-10 w-full relative'>
-        <h1 className='text-3xl font-semibold font-mono'>Today's Forecast - {info.city.toUpperCase()} </h1>
+        <h1 className='text-3xl  font-mono'>Today's Forecast - {info.city.toUpperCase()} </h1>
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-5 xl:px-14'>
 
             

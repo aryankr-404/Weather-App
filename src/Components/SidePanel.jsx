@@ -76,11 +76,11 @@ const SidePanel = ({updateWeatherInfo}) => {
                     {error && <p style={{color:"red"}}>City Not Found !</p>}
                 </div>
             </form>
-            <h4 className='relative top-20 text-center font-semibold text-sm md:hidden'>Scroll to see details <i className="text-lg ri-arrow-down-line"></i></h4>
+            <h4 className='relative top-0 text-center font-semibold text-sm md:hidden'>Scroll to see details <i className="text-lg ri-arrow-down-line"></i></h4>
         </div>
 
         <div className='relative h-1/3  w-full flex justify-center items-center'>
-            <img className='h-[80%] rounded-2xl' src="/assets/animatedCar.gif" alt="" />
+            <img className='lg:h-[80%]  h-[70%] rounded-2xl' src="/assets/animatedCar.gif" alt="" />
         </div>
     </div>
   )
